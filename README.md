@@ -1,6 +1,6 @@
-# Creating a random forest model using scikit-learn and predicting AQI values based on lastweek aqi values.
+Air Quality Index (AQI) Prediction Using Random Forest Regressor
 
-## The plan is:
-### The model predicts next weeks aqi based on last weeks aqi and is scored based on its predictions.
+Project Description:
+This project focuses on predicting the next day’s Air Quality Index (AQI) using historical pollutant measurements. The dataset contains hourly readings of pollutants like CO, NH3, NO2, OZONE, PM10, PM2.5, and SO2, which are aggregated to daily averages for modeling.
 
-#### Note: aqi_slow model is trained on AQI_PNQ.csv, which scored extremely bad. the other model is the better model(by my standard).
+A Random Forest Regressor is used to capture nonlinear relationships between pollutant levels and AQI. The model is trained on features including pollutant concentrations and temporal attributes such as month and weekday.
