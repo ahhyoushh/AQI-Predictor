@@ -1,4 +1,4 @@
-# 🌫️ Air Quality Index (AQI) Prediction Using Random Forest Regressor
+# ☢️ Air Quality Index (AQI) Prediction Using Random Forest Regressor
 
 ## 🧠 Overview
 
