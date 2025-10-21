@@ -43,6 +43,19 @@ This drop in performance occurred because **Diwali arrived earlier than usual**,
 and the **month/weekday features couldn’t effectively capture** the sudden festival-related changes in emissions.
 
 ---
+### 💢 Stress Test (Removing pervious day AQI feature)
+In the feature importance graph we could see that **AQI** was the most important feature. Stress test was done to see models perfomance without this important data.
+
+***With AQI Feature***
+
+<img width="603" height="533" alt="image" src="https://github.com/user-attachments/assets/dfe0d644-761c-47f8-9cbd-9d02bb38a65e" />
+
+---
+
+***Without AQI Feature***
+
+<img width="660" height="550" alt="image" src="https://github.com/user-attachments/assets/3304f206-96d7-4c7e-9804-df9f54338d33" />
+
 
 ## 🧩 Summary
 
