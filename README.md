@@ -5,8 +5,11 @@
 This project aims to **predict the next day’s Air Quality Index (AQI)** using historical pollutant measurements.
 The dataset contains hourly readings of pollutants such as **CO, NH₃, NO₂, O₃, PM10, PM2.5, and SO₂**, which are aggregated into daily averages for modeling.
 
+I have also made a page about this project [AQI Prediction model](https://ahhyoushh.github.io/aqi.html "Go to page")
+
 A **Random Forest Regressor** is used to capture the nonlinear relationships between pollutant levels and AQI.
 Features include both pollutant concentrations and temporal attributes such as **month** and **weekday**.
+
 
 ---
 
@@ -15,6 +18,7 @@ Features include both pollutant concentrations and temporal attributes such as *
 With **Diwali approaching**, I wanted to observe how AQI levels deviate during the festival period —
 since air quality typically worsens significantly due to fireworks and increased emissions.
 
+### I have also written a **blog** on [Effects of Diwali on AQI: Insights from my model](https://ahhyoushh.github.io/DiwaliAQI.html "Go to blog").
 ---
 
 ## 📊 Model Performance
